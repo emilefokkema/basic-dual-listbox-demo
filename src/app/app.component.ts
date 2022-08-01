@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
 	styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-	source = [ 'Pawn', 'Rook', 'Knight', 'Bishop', 'Queen', 'King' ];
+	source = [ {id: 'a'}, {id: null}, {id: 'b'}, {id: 'c'} ];
 	target = [];
 }
